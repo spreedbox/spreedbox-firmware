@@ -8,6 +8,8 @@ The downloads for the released images are found on the [Releases](https://github
 
 Download the `spreedbox-trusty-armhf.img.xz` file. This is the compressed disk image. See [Firmware Upgrade](#firmware-upgrade) for details and further instructions. The `Source code` files can be used to validate the firmware image.
 
+[Download latest release](https://github.com/spreedbox/spreedbox-firmware/releases/latest)
+
 ## Manifest
 
 The full list of all packages inside a firmware image are listed in the [MANIFEST.txt](MANIFEST.txt) file. This list can be used to track package additions, removals and updates accross releases.
