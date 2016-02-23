@@ -18,5 +18,7 @@ Releases are tagged and signed with Git by the release person. Use `git --verify
 
 ## Firmware Upgrade
 
-After downloading the firmware disk image, please see [Firmware Upgrade](https://github.com/spreedbox/spreedbox/wiki/Firmware-Upgrade) at the [Spreedbox Wiki](https://github.com/spreedbox/spreedbox/wiki) on how to flash the new disk image to your Spreedbox.
+Normally it is not required to upgrade the firmware of your Spreedbox. Instead check out the [Software Upgrade](https://github.com/spreedbox/spreedbox/wiki/Software-Update) page for instructions to upgrade the software on your Spreedbox to the lastest.
+
+If you want to use a new SD card or want to set up your Spreedbox clean from scratch, then this Firmware image is for you. After downloading the firmware disk image, please see [Firmware Upgrade](https://github.com/spreedbox/spreedbox/wiki/Firmware-Upgrade) at the [Spreedbox Wiki](https://github.com/spreedbox/spreedbox/wiki) on how to flash the new disk image to your Spreedbox.
 
