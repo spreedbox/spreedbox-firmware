@@ -6,7 +6,7 @@ This repository tracks checksums, package lists (manifest). These files are tagg
 
 The downloads for the released images are found on the [Releases](https://github.com/spreedbox/spreedbox-firmware/releases) page.
 
-Download the `spreedbox-trusty-armhf.img.xz` file. This is the compressed disk image. See [Firmware Upgrade](#Firmware Upgrade) for details and further instructions. The `Source code` files can be used to validate the firmware image.
+Download the `spreedbox-trusty-armhf.img.xz` file. This is the compressed disk image. See [Firmware Upgrade](#firmware-upgrade) for details and further instructions. The `Source code` files can be used to validate the firmware image.
 
 ## Manifest
 
@@ -16,7 +16,7 @@ The full list of all packages inside a firmware image are listed in the [MANIFES
 
 The SHA256 check sum of the release image is found in the [SHA256SUMS](SHA256SUMS). It covers both the release image and the manifest for that release.
 
-Releases are tagged and signed with Git by the release person. Use `git --verify-tag <version>` to validate.
+Releases are tagged and signed with Git by the release person. To verify, clone this repository and use `git --verify-tag <version>` to validate the release tag. Then compare the content of `SHA256SUMS` with the actual sums created from the image file download.
 
 ## Firmware Upgrade
 
