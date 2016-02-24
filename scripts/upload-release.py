@@ -36,7 +36,7 @@ GITHUB_USERNAME = os.environ.get('SPREEDBOX_UPLOAD_USERNAME')
 GITHUB_ACCESS_TOKEN = os.environ.get('SPREEDBOX_UPLOAD_ACCESS_TOKEN')
 IMAGES_ROOT = os.environ.get('SPREEDBOX_IMAGES_ROOT')
 
-GITHUB_OWNER = 'strukturag'
+GITHUB_OWNER = 'spreedbox'
 GITHUB_REPOSITORY = 'spreedbox-firmware'
 
 class MethodAwareRequest(urllib2.Request):
