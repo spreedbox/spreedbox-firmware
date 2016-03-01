@@ -1,6 +1,6 @@
 # Spreedbox Firmware image releases
 
-This repository tracks checksums, package lists (manifest). These files are tagged with a signature and a version number which defines the Spreedbox firmare image release.
+This repository tracks checksums, package lists (manifest). These files are tagged with a signature and a version number which defines the Spreedbox firmware image release.
 
 ## Download
 
