@@ -47,7 +47,7 @@ hostapd 1:2.4-0ubuntu6+1rtl871xdrv
 hostname 3.15ubuntu1
 ifplugd 0.28-19ubuntu1
 ifupdown 0.7.47.2ubuntu4.4
-init-system-helpers 1.14
+init-system-helpers 1.20ubuntu3~trusty1
 initramfs-tools 0.103ubuntu4.2
 initramfs-tools-bin 0.103ubuntu4.2
 initscripts 2.88dsf-41ubuntu6.3
@@ -283,13 +283,13 @@ spreed-webrtc-bin 0.25.1-1~trusty2
 spreedbox 1.2.2
 spreedbox-base 1.2.2
 spreedbox-base-odroidc 1.2.2
-spreedbox-confd 0.0.14
-spreedbox-discoverd 0.1.4
+spreedbox-confd 0.0.15
+spreedbox-discoverd 0.1.5
 spreedbox-entropy 1.2.2
 spreedbox-failsafe-skip 1.2.2
 spreedbox-firstboot 0.1.0
 spreedbox-gnatsd 0.0.1
-spreedbox-ledd 0.5.0
+spreedbox-ledd 0.6.1
 spreedbox-letsencrypt 0.0.4
 spreedbox-networkd 0.2.12
 spreedbox-odroidc 1.2.2
@@ -300,7 +300,7 @@ spreedbox-owncloud-theme 0.0.5
 spreedbox-php 0.0.7
 spreedbox-rng 0.0.5
 spreedbox-service 0.0.5
-spreedbox-servicecontrold 0.0.7
+spreedbox-servicecontrold 0.1.1
 spreedbox-setup 0.0.35
 spreedbox-setup-www 0.0.35
 spreedbox-ttys0 1.2.2
@@ -309,7 +309,7 @@ spreedbox-ubuntu-odroidc 1.2.2
 spreedbox-usbmount 0.0.4
 spreedbox-webrtc 0.1.2
 spreedbox-webserver 0.2.5
-spreedbox-wland 0.4.5
+spreedbox-wland 0.4.6
 sudo 1.8.9p5-1ubuntu1.2
 sysv-rc 2.88dsf-41ubuntu6.3
 sysvinit-utils 2.88dsf-41ubuntu6.3
