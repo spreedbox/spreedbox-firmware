@@ -277,15 +277,15 @@ rng-tools 5-1struktur1
 rsyslog 7.4.4-1ubuntu2.6
 sed 4.2.2-4ubuntu1
 sensible-utils 0.0.9
-spreed-webrtc 0.25.3-1~trusty0
-spreed-webrtc-assets 0.25.3-1~trusty0
-spreed-webrtc-bin 0.25.3-1~trusty0
+spreed-webrtc 0.25.4-1~trusty0
+spreed-webrtc-assets 0.25.4-1~trusty0
+spreed-webrtc-bin 0.25.4-1~trusty0
 spreedbox 1.3.1
 spreedbox-authd 0.1.1
 spreedbox-base 1.3.1
 spreedbox-base-odroidc 1.3.1
 spreedbox-confd 0.1.0
-spreedbox-discoverd 0.1.6
+spreedbox-discoverd 0.1.7
 spreedbox-entropy 1.3.1
 spreedbox-failsafe-skip 1.3.1
 spreedbox-firstboot 0.1.0
@@ -299,7 +299,7 @@ spreedbox-odroidc-boot-linux 3.10.97.1023.2
 spreedbox-odroidc-bootini 0.2.0
 spreedbox-owncloud 0.0.27
 spreedbox-owncloud-theme 0.0.9
-spreedbox-php 0.0.7
+spreedbox-php 0.0.8
 spreedbox-rng 0.2.0
 spreedbox-service 0.0.5
 spreedbox-servicecontrold 0.1.1
@@ -311,7 +311,7 @@ spreedbox-ubuntu-odroidc 1.3.1
 spreedbox-usbmount 0.0.4
 spreedbox-webrtc 0.1.3
 spreedbox-webserver 0.2.5
-spreedbox-wland 0.4.6
+spreedbox-wland 0.4.8
 sudo 1.8.9p5-1ubuntu1.2
 sysv-rc 2.88dsf-41ubuntu6.3
 sysvinit-utils 2.88dsf-41ubuntu6.3
