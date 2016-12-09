@@ -6,7 +6,7 @@ This repository tracks checksums, package lists (manifest). These files are tagg
 
 The downloads for the released images are found on the [Releases](https://github.com/spreedbox/spreedbox-firmware/releases) page.
 
-Download the `spreedbox-titan-armhf.img.xz` file. This is the compressed disk image. See [Firmware Upgrade](#firmware-upgrade) for details and further instructions. The `Source code` files can be used to validate the firmware image.
+Download the latest `spreedbox-titan-armhf-*.img.xz` file. This is the compressed disk image. See [Firmware Upgrade](#firmware-upgrade) for details and further instructions. The `Source code` files can be used to validate the firmware image.
 
 [Download latest release](https://github.com/spreedbox/spreedbox-firmware/releases/latest)
 
