@@ -23,7 +23,7 @@ fi
 VERSION=$(basename $FOLDER)
 echo "Using $VERSION from $FOLDER ..."
 
-(cd "$FOLDER" && sha256sum -c "$SHA256SUMS")
+(cd "$FOLDER" && sed '/img$/d' "$SHA256SUMS" | sha256sum -c)
 
 BASEPATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
 
