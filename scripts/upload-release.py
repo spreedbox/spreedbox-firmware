@@ -129,10 +129,15 @@ def main():
 
     tags = get_tags()
     prev_tag = None
+    tag_found = False
     for idx, (tag, commit) in enumerate(tags):
         if tag == tag_name:
+            tag_found = True
             try: prev_tag = tags[idx+1]
             except IndexError: pass
+
+    if not tag_found:
+        parser.error('Tag %s does not exist.' % (tag_name))
 
     if not prev_tag:
         release_body = 'This is the first release.'
