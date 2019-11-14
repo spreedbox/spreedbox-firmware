@@ -1,6 +1,7 @@
 adduser 3.113+nmu3ubuntu3
-apt 1.0.1ubuntu2.23
-apt-utils 1.0.1ubuntu2.23
+apt 1.0.1ubuntu2.24
+apt-transport-https 1.0.1ubuntu2.24
+apt-utils 1.0.1ubuntu2.24
 avahi-daemon 0.6.31-4ubuntu1.3
 base-files 7.2ubuntu5.6
 base-passwd 3.5.33
@@ -22,6 +23,7 @@ dbus 1.6.18-0ubuntu4.5
 debconf 1.5.51ubuntu2
 debconf-i18n 1.5.51ubuntu2
 debianutils 4.4
+dehydrated 0.6.5-1~ubuntu14.04
 dh-python 1.20140128-1ubuntu8.2
 diffutils 1:3.3-1
 dmsetup 2:1.02.77-6ubuntu2
@@ -88,12 +90,11 @@ keyboard-configuration 1.70ubuntu8
 klibc-utils 2.0.3-0ubuntu1.14.04.3
 kmod 15-0ubuntu7
 less 458-2
-letsencrypt.sh 0.2.0-3
 libacl1 2.2.52-1
 libaio1 0.3.109-4
 libapparmor1 2.10.95-0ubuntu2.6~14.04.4
-libapt-inst1.5 1.0.1ubuntu2.23
-libapt-pkg4.12 1.0.1ubuntu2.23
+libapt-inst1.5 1.0.1ubuntu2.24
+libapt-pkg4.12 1.0.1ubuntu2.24
 libasn1-8-heimdal 1.6~git20131207+dfsg-1ubuntu1.2
 libattr1 1:2.4.47-1ubuntu1
 libaudit-common 1:2.3.2-2ubuntu1
@@ -359,6 +360,8 @@ python2.7 2.7.6-8ubuntu0.5
 python2.7-minimal 2.7.6-8ubuntu0.5
 python3 3.4.0-0ubuntu2
 python3-minimal 3.4.0-0ubuntu2
+python3-pkg-resources 3.3-1ubuntu2
+python3-yaml 3.10-4ubuntu0.1
 python3.4 3.4.3-1ubuntu1~14.04.7
 python3.4-minimal 3.4.3-1ubuntu1~14.04.7
 readline-common 6.3-4ubuntu2
@@ -390,7 +393,7 @@ spreedbox-fpgaprog 0.1.1
 spreedbox-gnatsd 0.0.1
 spreedbox-keyring 2017.11
 spreedbox-ledd 0.7.2
-spreedbox-letsencrypt 0.0.4
+spreedbox-letsencrypt 0.1.0
 spreedbox-mailbox 0.5.1
 spreedbox-mailboxd-nextcloud 0.3.0
 spreedbox-networkd 0.5.1
@@ -428,7 +431,7 @@ tar 1.27.1-1ubuntu0.1
 telnet 0.17-36build2
 tzdata 2019a-0ubuntu0.14.04
 u-boot-tools 2013.10-3
-ubuntu-advantage-tools 10ubuntu0.14.04.3
+ubuntu-advantage-tools 19.6~ubuntu14.04.3
 ubuntu-keyring 2012.05.19
 ubuntu-minimal 1.325.1
 ucf 3.0027+nmu1
