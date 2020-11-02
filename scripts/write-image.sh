@@ -8,23 +8,34 @@ img=
 tmpimg=
 size=0
 failures=0
+ndevs=
 
 # write and compare image
 write_img()
 {
   img=$1
   bdev=$2
+  sbytes=$3
 
   echo "Writing Spreedbox image $img to $bdev (size $size MB)"
 
-  dd if=$img of=$bdev bs=1M conv=sync,fdatasync iflag=fullblock 2> /dev/null
+  if [ "$ndevs" = "1" ]; then
+      pv $img | dd of=$bdev bs=1M conv=sync,fdatasync iflag=fullblock 2> /dev/null
+  else
+      dd if=$img of=$bdev bs=1M conv=sync,fdatasync iflag=fullblock 2> /dev/null
+  fi
   if [ $? != 0 ]; then
       echo "Writing image file $img to block device $bdev failed. Exiting."
       return 1
   fi
 
   # Comparing data $bdev
-  dd if=$bdev bs=1M count=$size 2> /dev/null | cmp - $img 2> /dev/null
+  if [ "$ndevs" = "1" ]; then
+      echo "Validating Spreedbox image $img on $bdev ..."
+      dd if=$bdev bs=1M count=$size 2> /dev/null | pv -s $sbytes | cmp - $img 2> /dev/null
+  else
+      dd if=$bdev bs=1M count=$size 2> /dev/null | cmp - $img 2> /dev/null
+  fi
   if [ $? != 0 ]; then
     echo "ERROR: Written image file $image differs on block device $bdev. Exiting."
     return 1
@@ -97,7 +108,7 @@ fi
 
 # writing image in parallel
 for (( i=1; i <= $ndevs; i++ )); do
-  write_img $img ${bdev[$i]} &
+  write_img $img ${bdev[$i]} $sbytes &
 done
 # wait for completion
 for job in `jobs -p`; do
