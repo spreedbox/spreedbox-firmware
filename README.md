@@ -2,6 +2,13 @@
 
 This repository tracks checksums, package lists (manifest). These files are tagged with a signature and a version number which defines the Spreedbox firmware image release.
 
+## Release suites
+
+The following release suites are available:
+
+- `titan`: based on Ubuntu 14.04 and Nextcloud 12
+- `rhea`: based on Ubuntu 18.04 and Nextcloud 20
+
 ## Download
 
 The downloads for the released images are found on the [Releases](https://github.com/spreedbox/spreedbox-firmware/releases) page.
