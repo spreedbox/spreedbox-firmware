@@ -6,7 +6,7 @@ export LC_ALL=C
 
 FOLDER="$1"
 
-SUITE="titan"
+SUITE="rhea"
 MANIFEST="spreedbox-$SUITE.manifest"
 SHA256SUMS="SHA256SUMS"
 
